@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" ?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>Gabe Haack</authors>
+    <description>Helpful utility classes for a variety of common tasks.</description>
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="**\*.cs" target="src" />
+    <file src="bin\$configuration$\$id$.dll" target="lib\net45" />
+    <file src="bin\$configuration$\$id$.pdb" target="lib\net45" />
+  </files>
+</package>
